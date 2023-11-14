@@ -23,9 +23,14 @@
 // Write the function here....
 
 function duplicate(arr) {
-  let newArray = [];
+  let newArray = []
   for (let i = 0; i < arr.length; i++) {
-    newArray.push(arr[i]);
+    newArray.push(arr[i])
   }
-  return newArray;
+  return newArray
 }
+
+console.log(duplicate(['🍕', '🥗', '🍷', '🍰']))
+
+
+// console.log('sanity check')
